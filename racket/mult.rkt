@@ -14,7 +14,8 @@
   (cond [(= x 0) 0]
         [(= x 1) y]
         [#t (+ y (my-mult (- x 1) y))]))
-
+;(define e1 10)
+;(define e2 50)
 ;(define (my-mult x y-thunk)
 ;  (cond [(= x 0) 0]
 ;        [(= x 1) (y-thunk)]
